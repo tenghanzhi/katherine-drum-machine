@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+}
+
+#drum-machine-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  /*     background-color: #8d8d8d; */
+}
+
+#drum-machine {
+  padding: 25px;
+  display: flex;
+  width: 660px;
+  outline: 5px solid orange;
+  background-color: #b3b3b3;
+}
+
+#drum-pad-wrapper {
+  width: 350px;
+}
+
+.drum-pad {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 80px;
+  background-color: grey;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.drum-pad,
+#volumeInput {
+  box-shadow: black 3px 3px 5px;
+}
+
+.drum-pad,
+.power-text,
+.bank-text,
+#display {
+  font-size: 17px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#controls-wrapper {
+  width: 240px;
+  height: 272px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.power-wrapper,
+.bank-wrapper {
+  margin-top: 20px;
+}
+
+.power-item,
+.bank-item {
+  width: 50px;
+  height: 20px;
+  background-color: black;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.power-switch,
+.bank-switch {
+  width: 25px;
+  height: 100%;
+  background-color: blue;
+}
+
+#display {
+  margin: 20px auto;
+  background-color: gray;
+  width: 200px;
+  height: 40px;
+  padding-top: 15px;
+}
+
+#volumeInput {
+  width: 240px;
+  height: 5px;
+  box-shadow: black 3px 3px 5px;
+}
+
+button:active,
+.active {
+  background: orange;
+}
