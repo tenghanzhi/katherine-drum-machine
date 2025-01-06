@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/katherine-drum-machine/static/css/main.8e0ef5ba.css",
+    "main.js": "/katherine-drum-machine/static/js/main.841f42ed.js",
+    "index.html": "/katherine-drum-machine/index.html",
+    "main.8e0ef5ba.css.map": "/katherine-drum-machine/static/css/main.8e0ef5ba.css.map",
+    "main.841f42ed.js.map": "/katherine-drum-machine/static/js/main.841f42ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e0ef5ba.css",
+    "static/js/main.841f42ed.js"
+  ]
+}
